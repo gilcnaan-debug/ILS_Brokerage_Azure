@@ -1,0 +1,6 @@
+-- Databricks notebook source
+-- INSERT INTO metadata.mastermetadata (
+--   SourceSystem, SourceSecretName, TableID, SubjectArea, SourceDBName, SourceSchema, SourceTableName, LoadType, IsActive, Frequency, StagePath, RawPath, CuratedPath, DWHSchemaName, DWHTableName, ErrorLogPath, LastLoadDateColumn, MergeKey, DependencyTableIDs, PipelineEndTime, PipelineStartTime, PipelineRunStatus, Zone, MergeKeyColumn, SourceSelectQuery, LastLoadDateValue, UnixTime, Job_ID, NB_ID, Job_Name, Notebook_Name
+-- ) VALUES
+--   ('TMS', 'NA', 'SL14', 'Employee', 'Brokerageprod', 'Bronze', 'Ultiprolist', 'Incremental Load', 1, 'NA', 'NA', 'NA', 'NA', 'Silver', 'Silver_Employees', 'NA', 'Last_Modified_Date', 'MergeKey', 'NA', '1990-01-01', '1990-01-01', 'Succeeded', 'Silver', 'MergeKey', null, '1990-01-01', null, null, null, null, 'Extract_24_Hour_Refresh_2 run'),
+--   ('TMS', 'NA', 'GL7', 'Employee', 'Brokerageprod', 'Silver', 'Silver_Employees', 'Incremental Load', 1, 'NA', 'NA', 'NA', 'NA', 'Gold', 'Dim_Employees', 'NA', 'Last_Modified_Date', 'MergeKey', 'NA', '1990-01-01', '1990-01-01', 'Succeeded', 'Gold', 'MergeKey', null, '1990-01-01', null, null, null, null, 'Extract_24_Hour_Refresh_2 run');
