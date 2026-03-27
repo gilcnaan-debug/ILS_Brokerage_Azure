@@ -1,2 +1,0 @@
-azure-storage-blob==12.26.0
-slack_sdk==3.36.0
